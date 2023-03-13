@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/bhushan/Documents/Sem3/DSA/bcnew/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+A	numStack.h	/^	number **A;$/;"	m	struct:numStack	typeref:typename:number **
+A	stack.h	/^	int *A;$/;"	m	struct:stack	typeref:typename:int *
+addNumbers	numbers.c	/^number * addNumbers(number *n1, number *n2){$/;"	f	typeref:typename:number *
+convertToPostFix	postfix.c	/^int convertToPostFix(char *sor, char *des){$/;"	f	typeref:typename:int
+decimal	numbers.h	/^	int decimal;$/;"	m	struct:number	typeref:typename:int
+digits	numbers.h	/^	int digits;$/;"	m	struct:number	typeref:typename:int
+displayNumber	numbers.c	/^void displayNumber(number *num){$/;"	f	typeref:typename:void
+divNumbers	numbers.c	/^number * divNumbers(number *n1, number *n2){$/;"	f	typeref:typename:number *
+greaterNumber	numbers.c	/^int greaterNumber(number *n1, number *n2){$/;"	f	typeref:typename:int
+head	numbers.h	/^	node *head;$/;"	m	struct:number	typeref:typename:node *
+init	stack.c	/^void init(stack *s, int n){$/;"	f	typeref:typename:void
+initNs	numStack.c	/^void initNs(numStack *s, int n){$/;"	f	typeref:typename:void
+inputNumber	numbers.c	/^number * inputNumber(char *s, int sign){$/;"	f	typeref:typename:number *
+isEmpty	stack.c	/^bool isEmpty(stack s){$/;"	f	typeref:typename:bool
+isEmptyNs	numStack.c	/^bool isEmptyNs(numStack s){$/;"	f	typeref:typename:bool
+isFull	stack.c	/^bool isFull(stack s){$/;"	f	typeref:typename:bool
+isFullNs	numStack.c	/^bool isFullNs(numStack s){$/;"	f	typeref:typename:bool
+main	main.c	/^int main(int size, char *agrs[]){$/;"	f	typeref:typename:int
+main	tes.c	/^int main(){$/;"	f	typeref:typename:int
+mulNumbers	numbers.c	/^number * mulNumbers(number *n1, number *n2){$/;"	f	typeref:typename:number *
+next	numbers.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node *
+node	numbers.h	/^typedef struct node{$/;"	s
+node	numbers.h	/^}node;$/;"	t	typeref:struct:node
+numStack	numStack.h	/^typedef struct numStack{$/;"	s
+numStack	numStack.h	/^}numStack;$/;"	t	typeref:struct:numStack
+number	numbers.h	/^typedef struct number{$/;"	s
+number	numbers.h	/^}number;$/;"	t	typeref:struct:number
+peek	stack.c	/^int peek(stack s){$/;"	f	typeref:typename:int
+pop	stack.c	/^int pop(stack *s){$/;"	f	typeref:typename:int
+popNs	numStack.c	/^number * popNs(numStack *s){$/;"	f	typeref:typename:number *
+push	stack.c	/^int push(stack *s, int value){$/;"	f	typeref:typename:int
+pushNs	numStack.c	/^int pushNs(numStack *s, number *num){$/;"	f	typeref:typename:int
+sign	numbers.h	/^	int sign;$/;"	m	struct:number	typeref:typename:int
+size	numStack.h	/^	int size;$/;"	m	struct:numStack	typeref:typename:int
+size	stack.h	/^	int size;$/;"	m	struct:stack	typeref:typename:int
+stack	stack.h	/^typedef struct stack{$/;"	s
+stack	stack.h	/^}stack;$/;"	t	typeref:struct:stack
+subNumbers	numbers.c	/^number * subNumbers(number *n1, number *n2){$/;"	f	typeref:typename:number *
+top	numStack.h	/^	int top;$/;"	m	struct:numStack	typeref:typename:int
+top	stack.h	/^	int top;$/;"	m	struct:stack	typeref:typename:int
+val	numbers.h	/^	int val;$/;"	m	struct:node	typeref:typename:int
